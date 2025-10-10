@@ -108,38 +108,37 @@
               <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='corn_disease'>
-                  <img src='images/corn_disease.png' width="160">
+                <div class="two" id='heatwave'>
+                  <img src='images/heatwave.png' width="160">
                 </div>
-                  <img src='images/corn_disease.png' width="160">
+                  <img src='images/heatwave.png' width="160">
               </div>
               <script type="text/javascript">
                 function some_name_start() {
-                  document.getElementById('corn_disease').style.opacity = "1";
+                  document.getElementById('heatwave').style.opacity = "1";
                 }
 
                 function some_name_stop() {
-                  document.getElementById('corn_disease').style.opacity = "0";
+                  document.getElementById('heatwave').style.opacity = "0";
                 }
                 some_name_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://dl.acm.org/doi/10.1145/3719384.3719409">
-                <span class="papertitle">Detecting Diseases in Corn through Convolutional Neural Network Architectures and Ensemble</span>
+                <span class="papertitle">Deep Learning Methods to Predict Sea Surface Temperature and Marine Heatwave Occurrence in the Philippine Sea</span>
               </a>
               <br>
-              James Vincent Bacus, Caitlin Mariel Lindsay, Christian Maderazo, <strong>Gerard Ompad</strong>
+              Isabel Joy Adriatico, Shaun Tristan Elizer Cuesta, <strong>Gerard Ompad</strong>
               <br>
-              <em>2024 the 7th Artificial Intelligence and Cloud Computing Conference</em>, 2024
+              <em>Software Engineering: Emerging Trends and Practices in System Development. CSOC 2025. Lecture Notes in Networks and Systems, vol 1560. Springer</em>, 2025
               <!---<br>--->
              <!---  <a href="your_project_page_url">Project Page</a> / --->
               <!--- <a href="your_paper_pdf_url">PDF</a> / --->
               <!--- <a href="your_code_url">Code</a> --->
               <p></p>
               <p>
-              Implemented a pipeline that combines data augmentation on three transfer learning convolutional neural networks architectures (DenseNet201, EfficientNetV2M, 
-              and InceptionResNetV2), followed by a soft voting ensemble to improve classification performance for corn leaf diseases.
+              Marine heatwaves (MHWs), which are characterized by prolonged periods of anomalously high sea surface temperatures (SST), pose significant threats to marine ecosystems, coastal economies, and global biodiversity. The Philippines—situated in the Coral Triangle—relies heavily on its marine resources, making it vulnerable to these impacts. This study explores the use of deep learning models to predict SST and identify the occurrence of MHWs in the Philippine Sea using data sourced from NOAA Daily OISST. The study evaluated four deep learning architectures: (1) Long Short-Term Memory (LSTM), (2) Convolutional Neural Networks (CNN), (3) a hybrid model combining the strengths of both LSTM and CNN, and (4) Neural Basis Expansion Analysis for Interpretable Time Series (N-BEATS). To optimize performance, all models were fine-tuned using Bayesian optimization (BO). The hybrid model demonstrated a superior performance in SST forecasting, achieving RMSEs of 0.1034 °C at 1-day and 0.0652 °C at 14-day lead times. For MHW detection, N-BEATS achieved an RMSE of 0.0523 °C, with a recall of 98.25%, ensuring reliable identification of rare events. N-BEATS also obtained an F1-score of 97.67%, reflecting a strong balance between precision and recall, minimizing both false positives and false negatives. These results highlight the potential of neural networks in providing accurate SST forecasting and MHW detection to mitigate climate change impacts on the Philippines’ marine ecosystems and coastal communities.
               </p>
             </td>
           </tr>
