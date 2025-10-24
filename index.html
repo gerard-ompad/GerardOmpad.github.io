@@ -219,6 +219,48 @@
               </p>
             </td>
           </tr>
+        <!-- Insert Publication Here --> 
+              <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='corn_disease'>
+                  <img src='images/corn_disease.png' width="160">
+                </div>
+                  <img src='images/corn_disease.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function some_name_start() {
+                  document.getElementById('corn_disease').style.opacity = "1";
+                }
+
+                function some_name_stop() {
+                  document.getElementById('corn_disease').style.opacity = "0";
+                }
+                some_name_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://doi.org/10.1007/978-3-032-00239-6_11">
+                <span class="papertitle">Detecting Diseases in Corn through Convolutional Neural Network Architectures and Ensemble</span>
+              </a>
+              <br>
+              James Vincent Bacus, Caitlin Mariel Lindsay, Christian Maderazo, <strong>Gerard Ompad</strong>
+              <br>
+              <em>Proceedings of the 2024 7th Artificial Intelligence and Cloud Computing Conference (AICCC 2024)</em>, 2024
+              <!---<br>--->
+             <!---  <a href="your_project_page_url">Project Page</a> / --->
+              <!--- <a href="your_paper_pdf_url">PDF</a> / --->
+              <!--- <a href="your_code_url">Code</a> --->
+              <p></p>
+              <p>
+              Crop diseases reduce yield, affecting a nation's agricultural sector. 
+                This is more pronounced in nations such as the Philippines, where agriculture is the nation's foundation. 
+                To decrease the cost and time needed for disease detection, this study utilized Transfer Learning on three Convolutional Neural Networks (DenseNet201, EfficientNetV2M, and InceptionResNetV2) to identify three corn diseases: Common Rust, Blight, and Gray Leaf Spot. 
+                Data Augmentation was used to diversify the image dataset, resulting in 4,000 images per category. This research presents a comparison between the different architectures. 
+                It also illustrates the effect of the Soft Voting Ensemble Method.
+              </p>
+            </td>
+          </tr>
     <!-- Insert Publication Here -->
               <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
