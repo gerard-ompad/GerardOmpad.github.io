@@ -72,6 +72,48 @@
               <!-- Insert Publication Here -->
               <!-- Insert Publication Here -->
               <!-- Insert Publication Here -->
+              <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='SST'>
+                  <img src='images/SST.png' width="160">
+                </div>
+                  <img src='images/SST.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function some_name_start() {
+                  document.getElementById('SST').style.opacity = "1";
+                }
+
+                function some_name_stop() {
+                  document.getElementById('SST').style.opacity = "0";
+                }
+                some_name_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/11446353">
+                <span class="papertitle">Deep Learning-Based Modeling of Marine Heatwave Events: Identifying Key Exogenous Drivers and Enhancing Predictive Accuracy</span>
+              </a>
+              <br>
+              Zeus D. Elderfield; Seth S. Demeterio;Isabel Joy Adriatico; <strong>Gerard Ompad</strong>; Christian V. Maderazo
+              <br>
+              <em>2025 IEEE Asia-Pacific Conference on Geoscience, Electronics and Remote Sensing Technology (AGERS)</em>, 2025
+              <!---<br>--->
+             <!---  <a href="your_project_page_url">Project Page</a> / --->
+              <!--- <a href="your_paper_pdf_url">PDF</a> / --->
+              <!--- <a href="your_code_url">Code</a> --->
+              <p></p>
+              <p>
+              prolonged sea surface temperature (SST) departures above seasonal thresholds—are increasing in the Philippine Sea, threatening fisheries, reefs, and coastal livelihoods. The researchers assemble a daily, area-averaged 1995–2024 record that merges 
+             satellite SST, large-scale climate indices (ENSO, PDO, IOD, MJO), and ERA5 atmospheric fields, interpolate short gaps, standardize variables, and use 90-day lookbacks with a one-day (lead-1) forecast horizon. Recursive feature elimination
+             identifies five informative drivers: SST anomaly, Indian Ocean Dipole, surface solar radiation, 2-meter air temperature, and 10-meter meridional wind. A univariate N-BEATS baseline (SST only) achieves lead-1 MAE 0.195 °C, RMSE 0.247 °C, R² 0.959,
+             and MHW F1 0.937 on the held-out test block. A two-stream NBEATSX that encodes exogenous histories reduces lead-1 errors to MAE 0.087 °C and RMSE 0.108 °C (R² 0.992) while raising MHW F1 to 0.971. Kernel SHAP attribution shows the retained
+             drivers—winds, air temperature, solar radiation, and SST anomaly—jointly explain roughly half of the model’s predictive variance alongside the autoregressive SST channel. These results demonstrate that integrating carefully selected
+             exogenous variables into an interpretable deep-learning framework substantially improves near-term MHW predictability and highlights the physical drivers modulating Philippine Sea heat extremes.
+              </p>
+            </td>
+          </tr>
               <!-- Insert Publication Here -->
               <tr onmouseout="some_name_stop()" onmouseover="some_name_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
